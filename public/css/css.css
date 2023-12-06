@@ -1,0 +1,1080 @@
+/** GENERAL **/
+
+input[type="radio"] {
+    display: none;
+}
+
+.padding-top-10 {
+    margin-top: 10vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-color-primary {
+    background-color: #9E9E9E !important;
+}
+
+.bg-color-secondary {
+    background-color: #505050 !important;
+}
+
+.margin-top-25 {
+    margin-top: 25vh !important;
+}
+
+.margin-top-5 {
+    margin-top: 5vh;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20vh;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10vh;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5vh;
+}
+
+.harga {
+    color: #C10000 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.btn1 {
+    padding: 1.5vh 3vw !important;
+    font-size: 1.5rem !important;
+    color: #FFF !important;
+    background-color: black !important;
+    border-radius: 50px !important;
+}
+
+.btn1:hover {
+    background-color: #505050 !important;
+}
+
+.btn1:hover {
+    text-shadow: 0 0 10px #FFF;
+}
+
+.first {
+    margin-left: 0 !important;
+}
+
+.first-top {
+    margin-top: 0 !important;
+}
+
+.text-bold-750 {
+    font-weight: 750;
+    font-size: 1.5rem;
+}
+
+
+/* .holder {
+    background-color: antiquewhite;
+} */
+
+
+/** NAVBAR **/
+
+.navbar {
+    z-index: 9999 !important;
+    padding: 1vh 5vw !important;
+    position: fixed !important;
+    background-color: #9E9E9E !important;
+    font-weight: 600;
+    font-size: 1.10rem;
+    width: 100%;
+    height: 7.5vh;
+}
+
+nav .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto 0;
+    color: #FFF !important;
+}
+
+nav #navbarNavDropdown {}
+
+nav #navbarNavDropdown .navbar-nav {
+    position: absolute;
+    right: 5vw;
+}
+
+nav #navbarNavDropdown .nav-item {
+    margin-left: 2.5vw;
+}
+
+nav #navbarNavDropdown .nav-link {
+    color: #FFF;
+}
+
+nav #navbarNavDropdown .nav-item a:hover {
+    color: #000 !important;
+}
+
+
+/** HOME **/
+
+.home .home-img {
+    background-image: url(../img/wallpaper-sepatu.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding: 5vh 5vw;
+    text-shadow: 0 0 5px #FFF;
+}
+
+.home .home-img .one {
+    width: 35%;
+    float: right;
+    margin-top: 65vh;
+}
+
+.home .home-img .one h1 {
+    font-weight: 700;
+    font-size: 8rem;
+}
+
+.home .home-img .two {
+    width: 45%;
+    margin-top: 10vh;
+}
+
+.home .home-img .two h1 {
+    font-size: 3rem;
+}
+
+
+/* OVERVIEW-1 */
+
+.home .overview-1 {
+    padding: 10vh;
+    width: 100%;
+}
+
+.home .overview-1 .one {
+    background-image: url(../img/wallpaper-sepatu5.1.png);
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.home .overview-1 .two {
+    background-color: #9E9E9E;
+    padding: 2.5vh 0;
+    width: 100%;
+    display: flex;
+}
+
+.home .overview-1 .two .two-one h2 {
+    font-weight: 650;
+    color: #FFF;
+}
+
+.home .overview-1 .two .two-one {
+    padding-left: 5vw;
+    width: 100%;
+}
+
+.home .overview-1 .two .two-two {
+    margin: auto 0;
+    width: 22.5vw;
+    float: right;
+}
+
+#img-hot {
+    position: absolute;
+    right: 10vw;
+    margin-top: 15vh;
+    height: 10vh;
+}
+
+
+/* OVERVIEW-2 */
+
+.home .overview-2 {
+    padding: 15vh 10vw;
+    width: 100%;
+}
+
+.home .overview-2 .oneandtwo {
+    display: flex;
+    border: 1px solid #505050;
+    box-shadow: 0 0 25px #CB0000;
+}
+
+.home .overview-2 .one {
+    background-color: #CB0000;
+    width: 40vw;
+}
+
+.home .overview-2 .one img {
+    height: fit-content;
+    padding: 2vh;
+    width: 100%;
+}
+
+.home .overview-2 .two {
+    padding-left: 5vw;
+    width: 100%;
+}
+
+.home .overview-2 .two h1 {
+    font-weight: 650;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 40vw;
+}
+
+.home .overview-2 .two a {
+    background-color: #CB0000;
+    width: fit-content;
+    color: #FFF;
+    float: right;
+    margin-top: 7vh;
+    margin-right: 5vw;
+    padding: 1.5vh 1.5vw;
+    font-size: 1.5rem;
+}
+
+
+/* OVERVIEW-3 */
+
+.home .overview-3 {
+    width: 100%;
+    height: fit-content;
+}
+
+.home .overview-3 .one {
+    padding: 2.5vh 0 2.5vh 5vw;
+}
+
+.home .overview-3 .two {
+    overflow: auto;
+    display: flex;
+    background-color: #505050;
+    padding: 2.5vh;
+    width: 100%;
+    height: 100%;
+}
+
+.home .overview-3 .two .two-one {
+    padding: 0.5vh;
+    color: #000;
+    margin: 0 0.5vw;
+    height: 100%;
+}
+
+.home .overview-3 .two .two-one:hover {
+    margin-top: -1vh;
+}
+
+.home .overview-3 .two .two-one .two-one-one {
+    width: 20vw;
+    height: 40vh;
+    background-color: red;
+}
+
+.home .overview-3 .two .two-one .two-one-one img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.home .overview-3 .two .two-one .two-one-two {
+    background-color: #9E9E9E;
+    padding: 1vh;
+}
+
+.home .overview-3 .two .two-one .two-one-two h3 {
+    font-weight: 650;
+    margin-bottom: 0.5vh;
+    font-size: 1.25rem;
+}
+
+.home .overview-3 .two .two-one .two-one-two:hover {
+    background-color: #505050;
+}
+
+.home .overview-3 .two .two-one .two-one-two h6 {
+    color: red;
+}
+
+
+/* OVERVIEW-4 */
+
+.home .overview-4 {
+    margin-top: 20vh;
+    background-image: url(../img/wallpaper-sepatu3.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.home .overview-4 .one {
+    color: #FFF;
+    float: left;
+    margin-top: 50vh;
+    padding: 5vh;
+    width: max-content;
+}
+
+.home .overview-4 .one h5 {
+    margin-top: 2.5vh;
+    font-style: italic;
+}
+
+
+/* OVERVIEW-5 */
+
+.home .overview-5 {
+    color: #FFF;
+    margin-top: 20vh;
+    width: 100%;
+}
+
+.home .overview-5 .one {
+    background-color: #505050;
+    text-align: left;
+    padding: 1.5vh 2.5vw;
+    padding-top: 2vh;
+    margin-bottom: 0 !important;
+}
+
+.home .overview-5 .two {
+    background-color: #000;
+    display: flex;
+    padding-top: 2.5vh;
+}
+
+.home .overview-5 .two .left-side {
+    padding-left: 2.5vw;
+    width: 40%;
+}
+
+.home .overview-5 .two .left-side h4 {
+    padding-bottom: 10vh;
+}
+
+.home .overview-5 .two .left-side .container-1 {
+    display: flex;
+    padding: 2.5vh;
+    height: fit-content;
+}
+
+.home .overview-5 .two .left-side .container-1 .item {
+    width: 40%;
+}
+
+.home .overview-5 .two .left-side .container-1 .item img {
+    width: 100%;
+}
+
+.home .overview-5 .two .left-side .container-1 .item img:hover {
+    padding: 0.5vh;
+}
+
+.home .overview-5 .two .middle-side {
+    width: 40%;
+}
+
+.home .overview-5 .two .middle-side h4 {
+    padding-left: 1.5vw;
+}
+
+.home .overview-5 .two .middle-side .menu .item h2 {
+    color: #FFF;
+    padding: 1vh 0;
+    font-weight: 750;
+}
+
+.home .overview-5 .two .middle-side .menu .item:hover {
+    text-shadow: 0 0 5px #FFF;
+    background-color: #505050;
+}
+
+.home .overview-5 .two .right-side {
+    width: 40%;
+}
+
+.home .overview-5 .three {
+    background-color: #000;
+    text-align: right;
+    padding: 1.5vh 2.5vw;
+    padding-top: 2vh;
+    margin-bottom: 0 !important;
+}
+
+
+/** SHOP **/
+
+.shop {
+    padding-top: 7vh;
+    width: 100%;
+    display: flex;
+}
+
+.shop .alert {
+    z-index: 999;
+    width: 100%;
+}
+
+.shop .left-side {
+    position: fixed;
+    z-index: 1;
+    padding: 5vh;
+    padding-top: 10vh !important;
+    width: 20%;
+    height: 100vh;
+    background-color: #505050;
+}
+
+.shop .left-side h3 {
+    margin-top: 5vh;
+    color: #FFF;
+    padding-left: 1vw;
+    padding-bottom: 2vh;
+}
+
+.shop .left-side .container-search-dd {
+    margin-top: 5vh;
+}
+
+.shop .left-side .container-search-dd .search-dd {
+    display: flex;
+}
+
+.shop .left-side .container-search-dd .search-dd input,
+.shop .left-side .container-search-dd .search-dd form input {
+    padding-left: 1vw;
+    padding: 0.5vh 0 0.5vh 1vw;
+}
+
+.shop .left-side .search-dd .dropdown .btn {
+    border: none;
+    background-color: #9E9E9E;
+    border-radius: 0px !important;
+}
+
+.shop .left-side .search-dd .dropdown .btn:hover {
+    background-color: #505050;
+}
+
+.shop .right-side {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 19vw;
+    width: 100%;
+    height: max-content;
+    padding: 2.5vh;
+}
+
+.shop .right-side a {
+    color: #000;
+}
+
+.shop .right-side .card {
+    height: fit-content;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    width: 23.5% !important;
+}
+
+.shop .right-side .card:hover {
+    margin-top: -1.5vh;
+    background-color: #505050;
+}
+
+.shop .right-side .card .container-img {
+    height: 40vh;
+}
+
+.shop .right-side .card .container-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.shop .right-side .card .card-body {
+    background-color: #9E9E9E;
+}
+
+.shop .right-side .card .card-body:hover {
+    background-color: #505050;
+}
+
+.shop .right-side .card .card-body h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.shop .right-side .card .card-body h5 {
+    font-size: 1.1rem;
+}
+
+.shop .right-side .card .card-body p {
+    font-size: 1.1rem;
+    font-weight: 650;
+}
+
+
+/** SHOP ITEM **/
+
+.container-item {
+    padding: 15vh 10vw;
+    display: flex;
+}
+
+.container-item .left-side {
+    width: 40%;
+    height: 70vh;
+    margin-right: 2.5vw;
+}
+
+.container-item .left-side .carousel button {
+    margin: auto 0;
+    height: 25%;
+    width: 10%;
+    background-color: #9E9E9E;
+}
+
+.container-item .left-side .carousel-item {
+    background-color: red;
+    height: 65vh;
+}
+
+.container-item .left-side .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-item .right-side {
+    width: 60%;
+    height: 70vh;
+}
+
+.container-item .right-side .item-judul {
+    padding-left: 2vw;
+}
+
+.container-item .right-side .item-judul .harga {
+    color: red;
+}
+
+.container-item .right-side .container-size {
+    display: flexbox;
+    padding: 2.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.container-item .right-side .container-size .item-size {
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    display: inline-block;
+    border: 2px solid #000;
+    color: #000;
+    padding: 0.5vh 2vw;
+}
+
+.container-item .right-side .container-size .item-size:hover {
+    background-color: #9E9E9E;
+}
+
+.container-item .right-side .container-size input {
+    display: none;
+}
+
+.container-item .right-side .container-size .item-size label {
+    cursor: pointer;
+}
+
+.container-item .right-side .container-size input:checked+label {
+    background-color: #505050;
+    color: #FFF;
+}
+
+.container-item .right-side .container-desc1 {
+    color: #505050;
+    font-style: italic;
+    padding: 0 2.5vw;
+}
+
+.container-item .right-side .container-button {
+    display: flex;
+    float: right;
+    width: 100%;
+}
+
+.container-item .right-side .container-button a {
+    color: #FFF;
+}
+
+.container-item .right-side .container-button .item {
+    margin: 0 1vw;
+}
+
+.container-item .right-side .container-button form {
+    width: 40%;
+}
+
+.container-item .right-side .container-button .btn1 {
+    width: 40%;
+    margin: 5vh 2.5vw;
+}
+
+.container-item .right-side .container-button .alone {
+    width: 30%;
+    margin: 5vh 2.5vw 5vh 25vw;
+}
+
+.container-item .right-side .container-button form .hapus {
+    width: 100%;
+    background-color: red !important;
+}
+
+.container-item .right-side .container-button .modal {
+    margin-top: 25vh;
+}
+
+.container-item .right-side .container-button .modal .modal-body {
+    text-align: justify;
+}
+
+.container-item .right-side .overview-1 {
+    margin-top: 20vh;
+    margin-bottom: -5vh;
+}
+
+.container-item .right-side .overview-1,
+.container-item .right-side .overview-2 {
+    padding: 5vh;
+}
+
+.container-item .right-side .overview-1 .judul,
+.container-item .right-side .overview-2 .judul {
+    margin-left: 1vw;
+}
+
+.container-item .right-side .overview-1 .deskripsi p {
+    text-align: justify;
+}
+
+
+/** ABOUT **/
+
+.about .overview-1 {
+    padding-top: 10vh;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/wallpaper-sepatu4.png);
+    background-size: cover;
+}
+
+.about .overview-1 h1 {
+    float: right;
+    margin-top: 60vh;
+    padding: 0.5vh 2.5vw;
+    width: fit-content;
+    color: #FFF;
+    font-size: 4rem;
+    text-shadow: 0 0 5px #FFF;
+}
+
+.about .overview-2 {
+    padding: 15vh 10vw;
+}
+
+.about .overview-2 h2 {
+    padding-left: 2.5vw;
+    margin-bottom: 5vh;
+}
+
+.about .overview-2 p {
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.about .overview-2 p {
+    font-size: 1.5rem;
+}
+
+.about .overview-3 {
+    padding: 15vh 10vw;
+}
+
+.about .overview-3 .judul {
+    padding-left: 2.5vw;
+    margin-bottom: 5vh;
+}
+
+.about .overview-3 .item-people {
+    display: flex;
+    height: 70vh;
+}
+
+.about .overview-3 .item-people .left-side {
+    width: 30%;
+}
+
+.about .overview-3 .item-people .left-side img {
+    width: 100%;
+}
+
+.about .overview-3 .item-people .right-side {
+    padding: 5vh 0vw;
+    width: 70%;
+}
+
+.about .overview-3 .item-people .right-side .info {
+    margin-top: 5vh;
+    padding: 5vh;
+    background-color: #9E9E9E;
+}
+
+.about .overview-7 {
+    padding: 5vh 10vw;
+}
+
+
+/** BUAT SEPATU **/
+
+.buatSepatu {
+    padding: 12.5vh 10vw;
+}
+
+.buatSepatu .title {
+    font-weight: 750;
+    margin-left: 2.5vw;
+    margin-bottom: 2.5vh;
+}
+
+.buatSepatu .title h1 {
+    font-weight: 750;
+}
+
+.buatSepatu .flex {
+    width: 100%;
+    border: 1px solid #9E9E9E;
+}
+
+.buatSepatu .left-side {
+    width: 50vw !important;
+    height: 65vh;
+    background-color: #9E9E9E;
+}
+
+.buatSepatu .left-side img {
+    padding: 2vh;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.buatSepatu .right-side {
+    display: flex;
+    width: 65%;
+    padding: 5vh 5vw;
+}
+
+.buatSepatu .right-side .item {
+    margin-top: 6vh;
+}
+
+.buatSepatu .right-side .left {}
+
+.buatSepatu .right-side .left .item {
+    font-size: 1.5rem;
+}
+
+.buatSepatu .right-side .right {
+    padding-left: 2.5vw;
+}
+
+.buatSepatu .right-side .right input {
+    padding: 1vh 1vw;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-top: 4.5vh;
+    width: 100%;
+}
+
+.buatSepatu .right-side .right .container-button {
+    background-color: chartreuse;
+}
+
+.buatSepatu .right-side .right .container-button button {
+    float: right;
+    margin-top: 5vh;
+}
+
+
+/** PROFILE **/
+
+.profile {
+    padding: 15vh 10vw;
+}
+
+.profile .container-one {
+    border: 1px solid #505050;
+    display: flex;
+    width: 100%;
+}
+
+.profile .container-one .left-side {
+    background-color: #9E9E9E;
+}
+
+.profile .container-one .left-side .container-img {
+    width: 30vw;
+    height: 60vh;
+}
+
+.profile .container-one .left-side .container-img img {
+    border: 1px solid #505050;
+    background-size: cover;
+    object-fit: cover;
+    margin: 1.5vh;
+    width: 95%;
+    height: 95%;
+}
+
+.profile .container-one .right-side {
+    width: 100%;
+}
+
+.profile .container-one .right-side h1 {
+    background-color: #9E9E9E;
+    color: #FFF;
+    font-weight: 750;
+    padding: 4vh;
+}
+
+.profile .container-one .inner-left-side {
+    padding: 5vh 2.5vh;
+    padding-left: 5vh;
+    width: 40%;
+    height: fit-content;
+}
+
+.profile .container-one .inner-left-side .item {
+    margin-bottom: 2vh;
+}
+
+.profile .container-one .inner-right-side {
+    height: fit-content;
+    padding: 5vh 2.5vh;
+    width: 100%;
+}
+
+.profile .container-one .inner-right-side .item {
+    margin-bottom: 2vh;
+}
+
+.profile .container-one .right-side .sector-1 {
+    padding: 2vh;
+}
+
+.profile .container-one .right-side .sector-1 .btn1 {
+    float: right;
+    padding: 2vh 2vw;
+    margin: 0 1vw;
+    margin-bottom: 2vh;
+    color: #FFF;
+    background-color: #505050;
+}
+
+
+/** EDIT PROFILE **/
+
+.edit .container-one .left-side .item {
+    margin: 1vh 7.5vw 2vh 7.5vw;
+}
+
+.edit .container-one .inner-right-side .item {
+    margin-bottom: 1vh !important;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.edit .container-one .right-side .sector-1 .btn1 {
+    padding: 2vh 5vw !important;
+}
+
+
+/** KONFIRMASI **/
+
+.konfirmasi {
+    padding: 15vh 10vw;
+}
+
+.konfirmasi .dropdown {
+    width: fit-content;
+}
+
+.konfirmasi h2 {
+    margin-left: 2.5vw;
+    color: #505050;
+}
+
+.konfirmasi .table tbody .container-outside-respon {
+    width: 17.5%;
+}
+
+.konfirmasi .table tbody .container-respon {
+    display: flex;
+    width: fit-content;
+}
+
+.konfirmasi .table tbody .container-respon .yes {
+    width: 100%;
+    margin-right: 0.5vw;
+}
+
+.konfirmasi .table tbody .container-respon .yes a {}
+
+.konfirmasi .table tbody .container-respon .no {
+    width: 100%;
+}
+
+.konfirmasi .table tbody .btn {
+    border-radius: 0 !important;
+    color: #FFF;
+}
+
+.konfirmasi .table tbody .btn:hover {
+    text-shadow: 0 0 5px #FFF;
+}
+
+.konfirmasi .table tbody .btn2 {
+    background-color: #9E9E9E;
+    color: #FFF;
+}
+
+.konfirmasi .table tbody .btn2:hover {
+    background-color: #505050;
+    color: #FFF;
+}
+
+.konfirmasi .table tbody .bayar {
+    background-color: #505050;
+    margin-right: 0.5vw;
+}
+
+.konfirmasi .table tbody .bayar:hover {
+    background-color: #9E9E9E;
+    margin-right: 0.5vw;
+}
+
+.konfirmasi .table tbody .container-respon .disabled {
+    color: #9E9E9E;
+    background-color: #430000 !important;
+}
+
+.konfirmasi .table tbody th {
+    color: #505050;
+}
+
+.konfirmasi .table tbody tr {
+    color: #9E9E9E;
+}
+
+
+/** LIHAT KOMPLAIN **/
+
+.lihatKomplain .flex .left-side {
+    width: 50%;
+}
+
+.lihatKomplain .flex .left-side img {
+    width: 100%;
+    height: 100%;
+}
+
+.lihatKomplain .flex .right-side .item {
+    margin-top: 2.5vh;
+    font-size: 1.25rem;
+}
+
+.lihatKomplain .flex .right-side .left {
+    width: 40%;
+}
+
+.lihatKomplain .flex .right-side .left .item {
+    font-size: 1.25rem;
+}
+
+.lihatKomplain .flex .right-side .right {
+    width: 100%;
+}
+
+.lihatKomplain .flex .right-side .right .item {
+    width: 100%;
+}
+
+.lihatKomplain .flex .right-side .right .modal {
+    margin-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+.lihatKomplain .flex .right-side .right .modal video {
+    width: 100%;
+}
+
+.lihatKomplain .flex .right-side .right .modal .modal-body img {
+    width: 100%;
+}
+
+.lihatKomplain .flex .right-side .right .container-button,
+.buatKomplain .flex .right-side .right .container-button {
+    margin-top: 10vh;
+}
+
+.lihatKomplain .flex .right-side .right .btn2 {
+    margin-top: 2.5vh;
+    background-color: #505050 !important;
+    color: #FFF;
+    padding: 1vh 5vh;
+}
+
+/** FAQ **/
+
+.faq {
+    padding: 15vh 10vw;
+}
+
+.faq .accordion-button {
+    font-weight:650;
+    color: #000 !important;
+    background-color: #AAA !important;
+}
+
+.faq .accordion-button:focus {
+    background-color: #AAA;
+}
+
+/** PRIVACY **/
+
+.privacy {
+    padding: 15vh 10vw;
+}

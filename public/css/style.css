@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hide {
+  transform: translateY(-100px);
+}
+.navbar {
+  background-color: #2fc1ff;
+  transition: transform 0.5s;
+}
+
+.navbar a:hover {
+  background: #006e9c;
+}
+
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.title,
+.subtitle,
+p {
+  color: #006e9c;
+}
+
+.button:hover {
+  background: #006e9c;
+}
+
+.sameBg {
+  background-color: #c5eeff;
+}
+
+.bord {
+  border: 2px solid #c5eeff;
+}
+
+.bg2 {
+  background-color: #00577b;
+}
+
+.button {
+  background-color: #2fc1ff;
+}
+
+.sign {
+  height: 100vh;
+  background-color: #c5eeff;
+  display: flex;
+  align-items: center;
+}
+
+.sign .card {
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .wrap-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    transform: rotate(90deg);
+    margin: 30px 0;
+  }
+}
